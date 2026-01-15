@@ -40,30 +40,35 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to assess satisfaction for different aspects of the respondent's job, including overall satisfaction, in order to pinpoint exactly which factors may be leading to low employee satisfaction and therefore high turnover (and thus what at the company might need to be changed). This survey will be administered to the full range of positions throughout the company instead of only the entry-level positions (see sampling strategy below) in order to better identify issues that are specific to only the entry-level positions (where the high turnover is happening). This survey is targeted to people still working at the company, rather than people who have already quit, since people no longer with the company may be harder to contact or may be less inclined to respond, and if we want to use our survey results to improve conditions at the company, it likely makes more sense to collect data from people who would actually benefit from those changes.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+My survey will use a stratified sampling design, where the strata are different salary ranges at the company across all departments (e.g. all entry-level positions, all mid-level positions, all senior positions), and a certain number of respondents are randomly sampled from each of the salary ranges to take the survey via forms sent over email. Stratified sampling makes sense for this scenario because the employees at the company can easily be divided into strata based on salary data which should be available to Human Resources, and since we know that the turnover is happening across many different departments but specifically in lower-level positions, we might expect employees in different departments with similar salaries to have more similar job satisfaction than employees in the same department but very different salaries. The target population here is the entire company (we're interested in the lower-level positions, but also sampling more senior positions lets us identify trends that are specific to lower-level positions), and the sampling frame is everyone in the company with an email address that's available to the Human Resources Department. The sampling units and observational units here are both just the individual employees (since we're sampling from every stratum instead of randomly sampling strata). Enough people in each salary range should be sampled in order to capture all of the different departments at the company.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+(These 3 questions are open-ended, allowing the respondent to enter anything)
+1. Which department of the company are you employed in?
+2. How many years have you worked at this company, in any position?
+3. Approximately how much is your current annual salary at this company?
+
+(These 5 questions have the following options: Highly unsatisfied, Moderately unsatisfied, Neutral, Moderately satisfied, and Highly satisfied)
+4. How satisfied are you with your current salary?
+5. How satisfied are you with the benefits you receive at this company (e.g. health insurance)?
+6. How satisfied are you with your current workload (how much work you are expected to perform on a daily basis)?
+7. How satisfied are you with with your work environment, including interactions with other employees?
+8. Overall, how satisfied are you with your current position at this company?
+
+(These 2 questions are open-ended, allowing the respondent to enter anything)
+9. Are there any aspects of your current position not mentioned above that you are unsatisfied with? If so, include them here.
+10. Are there any changes you would like to see at this company that would address any areas of dissatisfaction touched on in this survey? If so, include them here.
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +76,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Stratified sampling - the 10 Canadian provinces were divided into 27 strata. Random samples of households were taken from each stratum based on available telephone numbers, and a random eligible individual from each household was surveyed. "Rejective sampling" was also used, where some respondents who were not volunteers were randomly chosen to be excluded from the full survey.
+2. Sample size: The total number of respondents (excluding rejected non-volunteers) was 16,149.
+3. Target population: Everyone 15 years old or older in all 10 Canadian provinces, except for full-time residents of institutions.
+4. Sampling frame: Households with telephone numbers available to Stats Canada. The Address Register, a list of all households in the 10 provinces, was used to group together phone numbers known to belong to the same household.
+5. Survey mode(s): Surveys were completed either through an electronic questionnaire or over the phone (computer assisted telephone interviewing), in either English or French.
+6. Timeline: Data was collected between September 4th 2018 and December 28th 2018.
+7. Response rate: The response rate was 41.9%.
+8. Weights: Person-level weights were used, for example to account for the fact that a certain amount of non-volunteers were randomly rejected, and to try and make sure that weighted distributions of responses (e.g. income, age, sex) matched known distributions for the province. Bootstrap weights were also calculated for variance estimation.
+9. Data processing: Responses out of the scope of the survey, as well as non-responses, were dropped. Imputation was used to fill in certain missing values. Where possible, personal income data was taken from a respondent's linked tax records. Person-level weights were calculated, as mentioned above. 
+10. Cleaning, imputation, etc: Checks were done where possible to make sure that the survey data was consistent with itself, e.g. comparing the respondent's given age to their given date of birth. If, during the survey, a given data point was found to be outside of the valid range of values, the respondent was asked to correct this error where possible. For certain variables such as personal and family income, non-responses were imputed by using the value from the most similar "donor" record.
+11. Sources of error: The random sampling data collected here is subject to sampling error, meaning that it likely does not perfectly represent the full population. There are also coverage errors since the sampling frame does not perfectly match the target population, e.g. houses with eligible respondents but without available telephone numbers would not be sampled. Errors can also come from respondents not responding to certain questions, responding with incorrect information, or responses being incorrectly entered by the interviewer. 
+12. Limitations, known biases, etc: In addition to the above sources of error (e.g. inability to sample households without telephones, meaning that those individuals will be excluded), one source of bias is that questions about income are known in general to have high non-response rates (e.g. if someone is uncomfortable with sharing their personal income or doesn't know their exact household income). In these cases, if income data are unable to be obtained from linked tax records, the income data would have to be imputed. Also, if this survey is intended to understand Canada as a whole, sampling from only the 10 provinces is a limitation because respondents from the 3 territories may have responses that tend to differ from the rest of the country, and so excluding them is another source of bias.
+13. Link to documentation and any additional sources used: My sources are the Stats Canada documentation found at this link (https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234), as well as the "Public Use Microdata File User Guide" found in the ZIP file located here (https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip).
 ```
 
 ## Rubric
